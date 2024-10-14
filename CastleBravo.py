@@ -11,6 +11,9 @@ WHITE = '\033[37m'
 # Print a welcome message in Blue
 print(f"{BLUE}\nWelcome to InfoTechCenter V1.0\n{RESET}")
 
+TimeToSleep = 2  # variable to set the time library to 2 seconds when called
+time.sleep(TimeToSleep)  # calling the time to sleep library with the variable TimeToSleep
+
 x = 0  # Initialize a counter variable
 ellipsis = 0  # Initialize ellipsis counter to control the number of dots in the booting message
 

@@ -32,6 +32,7 @@ while x != 20:
         print(f"\n\n{BLUE}Operating System Booted up - Retina Scanned - Access Granted{RESET}")
 
 print("\n***********************************************")
+print("Weather Branch")
 # Prints a separator line of asterisks to visually structure the output
 
 import random  # Randomly selects weather condition
